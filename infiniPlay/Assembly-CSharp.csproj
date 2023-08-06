@@ -40,7 +40,30 @@
     <Analyzer Include="/Users/yaoxing2058/Documents/Unity/2022.3.5f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets/Message.cs" />
      <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+     <Compile Include="Assets/ChangeColor.cs" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Users/yaoxing2058/Documents/Unity/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -291,7 +314,7 @@
         <HintPath>/Users/yaoxing2058/Documents/Unity/2022.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Users/yaoxing2058/Documents/Unity/2022.3.5f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -675,94 +698,94 @@
         <HintPath>/Users/yaoxing2058/Documents/Unity/2022.3.5f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Notifications">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Notifications.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Notifications.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Notifications.iOS">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Profiler.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.UI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Notifications.Android">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Profiling.Core">
-        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay/Library/ScriptAssemblies/Unity.Profiling.Core.dll</HintPath>
+        <HintPath>/Users/yaoxing2058/Desktop/infiniPlay_Proj/infiniPlay/Library/ScriptAssemblies/Unity.Profiling.Core.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
